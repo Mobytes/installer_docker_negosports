@@ -10,8 +10,6 @@ V0.4
 * [Git](https://git-scm.com)
 * [PgAdmin4](https://www.pgadmin.org/)
 
-Antes de configurar el software tenemos que localizar 
-
 ### Configuracion
 
 * Verificamos la distribucion de los directorios
