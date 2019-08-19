@@ -53,7 +53,7 @@ Para verificar se tiene que poner en el navegador en *http://dmariol.local:8000/
 
 
 ### Restauramos la base de datos 
-Restauramos la base de datos con el PgAdmin4, el archivo es 
+Restauramos la base de datos con el PgAdmin4, el archivo es *booking__db_2807201916.pgdump*
 
 ## Comandos adicionales
 * Listar servicios de docker
