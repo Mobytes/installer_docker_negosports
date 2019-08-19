@@ -1,5 +1,5 @@
 ## INSTALADOR DOCKER WINDOWS
-Este manual es para poder instalar el software de hrsystem con docker en windows.
+Este manual es para poder instalar el software de negosports con docker en windows.
 
 ### Version
 V0.4
@@ -8,28 +8,15 @@ V0.4
 
 * [DockerToolbox](https://drive.google.com/file/d/1ebWirBtiEBDf7JVL4utbmAH9ktqH0j8y/view?usp=sharing)
 * [Git](https://git-scm.com)
+* [PgAdmin4](https://www.pgadmin.org/)
 
 Antes de configurar el software tenemos que localizar 
 
 ### Configuracion
-* Descargar la configuracion del instalador del software en docker.
-```sh
-$ git clone https://github.com/evervasquez/hrsystem_installer.git system
-```
 
-* Nos movemos a la carpeta con el comando `cd`
-```sh
-$ cd system
+* Verificamos la distribucion de los directorios
 ```
-
-* Descargar el codigo fuente del software preparado para la dockerizacion con el renombrar a la carpeta ``app``
-```sh
-$ git clone https://github.com/evervasquez/hrsystem.git app
-```
-
-* Configuracion  final
-```
-system/
+sistema/
 ├─ docker-compose.yml
 ├─ production.yml
 ├─ README.md
@@ -38,7 +25,7 @@ system/
 │  ├─ Dockerfile
 │  └─ nginx.conf
 ├─ app/
-│  ├─ hrsystem/
+│  ├─ booking/
 │  ├─ Dockerfile
 │  ├─ Gulpfile.js
 │  ├─ package.json
@@ -50,7 +37,7 @@ Todos los comandos de docker tienen que ser lanzados dentro de la carpeta del pr
 
 ### Situarnos en la carpeta system/
 ```sh
-$ cd system/
+$ cd sistema/
 ```
 
 ### Creamos los servicios
@@ -63,8 +50,8 @@ $ docker-compose build
 $ docker-compose up -d
 ```
 
-### Ingresar data inicial 
-La data inicial esta en el archivo **hrsystem/sql/init.sql**
+### Restauramos la base de datos 
+Restauramos la base de datos con el pgadmin
 
 ## Comandos adicionales
 * Listar servicios de docker
