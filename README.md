@@ -4,7 +4,7 @@ Este manual es para poder instalar el software de negosports con docker en windo
 ### Version
 V0.4
 
-### Tecnologias
+### Herramientas
 
 * [DockerToolbox](https://drive.google.com/file/d/1ebWirBtiEBDf7JVL4utbmAH9ktqH0j8y/view?usp=sharing)
 * [Git](https://git-scm.com)
