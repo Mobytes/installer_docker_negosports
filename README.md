@@ -33,7 +33,7 @@ sistema/
 ### Instalacion
 Todos los comandos de docker tienen que ser lanzados dentro de la carpeta del proyecto de `docker`
 
-### Situarnos en la carpeta system/
+### Situarnos en la carpeta sistema/
 ```sh
 $ cd sistema/
 ```
@@ -48,8 +48,12 @@ $ docker-compose build
 $ docker-compose up -d
 ```
 
+### Verificar servidor web
+Para verificar se tiene que poner en el navegador en *http://dmariol.local:8000/*
+
+
 ### Restauramos la base de datos 
-Restauramos la base de datos con el pgadmin
+Restauramos la base de datos con el PgAdmin4, el archivo es 
 
 ## Comandos adicionales
 * Listar servicios de docker
